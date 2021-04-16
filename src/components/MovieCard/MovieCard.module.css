@@ -1,0 +1,54 @@
+.wrapper {
+  display: flex;
+  width: 100%;
+  padding: 15px;
+}
+  
+.image {
+  display: block;
+  max-width: 250px;
+  margin-right: 25px;
+}
+  
+.content {
+  font-family: Roboto, sans-serif;
+}
+  
+.category {
+  font-weight: bold;
+  font-size: 25px;
+}
+  
+.link {
+  font-family: Roboto, sans-serif;
+  background-color: transparent;
+  color: rgb(35, 95, 71);
+  border: none;
+}
+  
+.item:not(:last-child) {
+  margin-right: 60px;
+}
+  
+.activeLink {
+  color: black;
+  font-weight: 700;
+}
+  
+.list {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+  
+.nav {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 3px solid black;
+}
+
+
+
